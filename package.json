@@ -5,7 +5,7 @@
     "author": "Olman San Lee Montero",
     "icon": "icons/hangar_plus_AEM.png",
     "license": "MIT",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "olmanslm",
     "engines": {
         "vscode": "^1.46.0"
