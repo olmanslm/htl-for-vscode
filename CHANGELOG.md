@@ -1,9 +1,4 @@
 # Change Log
 
-All notable changes to the "htl-for-vscode" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+## 0.0.4 (July 28th, 2020)
+ * initial version, creation of the base plugin (beta)

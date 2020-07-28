@@ -1,14 +1,10 @@
 {
-	"HTL sly element with a data-sly empty attribute": {
-		"prefix": "sly",
-		"body": "<sly data-sly-${1:0}></sly>"
-	},
 	"New Component with a call to a template file": {
-		"prefix": "component",
+		"prefix": "sly.component",
 		"body": "<sly data-sly-use.${1:data}=\"${2:template}.html\"\n\t\tdata-sly-call=\"${component.${2:template} @ properties=${3:properties}}\">$0</sly>"
 	},
 	"New sly template": {
-		"prefix": "template",
+		"prefix": "sly.template",
 		"body": "<template data-sly-template.${1:template}=\"${@ ${2:data}}\">$2</template>$0"
 	},
 	"HTL sly element with a data-sly-resource attribute": {
