@@ -5,7 +5,7 @@
     "author": "Olman San Lee Montero",
     "icon": "icons/hangar_plus_AEM.png",
     "license": "MIT",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "olmanslm",
     "engines": {
         "vscode": "^1.46.0"
@@ -13,14 +13,14 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/olmanslm/htl-for-vscode"
-      },
+    },
     "categories": [
         "Programming Languages",
         "Other",
         "Snippets"
     ],
     "activationEvents": [
-        "onCommand:test.helloWorld"
+        "onCommand:test.holis"
     ],
     "main": "./out/extension.js",
     "contributes": {
@@ -40,14 +40,20 @@
         "grammars": [
             {
                 "language": "htl",
-                "scopeName": "aem.htl.html.text",
+                "scopeName": "text.html.htl.aem",
                 "path": "./syntaxes/htl.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "htl",
+                "path": "./snippets/htl-snippets.json"
             }
         ],
         "commands": [
             {
-                "command": "test.helloWorld",
-                "title": "Hello World"
+                "command": "test.holis",
+                "title": "Say Hello!"
             }
         ]
     },
