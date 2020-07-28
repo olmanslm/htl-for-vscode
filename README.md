@@ -15,8 +15,8 @@ Features
 * Code outline
 * Code folding
 * Code snippets
-	* HTL
-	* Fields and dialogs (coming soon...)
+    * HTL
+    * Fields and dialogs (coming soon...)
 
 See the [changelog](CHANGELOG.md) for the latest release.
 
@@ -59,7 +59,7 @@ The following settings are supported:
 
 Feedback
 ===============
-* File a bug in [GitHub Issues](https://github.com/olmanslm/htl-for-vscode/issues),
+* File a bug in [GitHub Issues](https://github.com/olmanslm/htl-for-vscode/issues).
 * [Tweet us](https://twitter.com/olmanslm/) with other feedback.
 
 
