@@ -105,3 +105,5 @@ dist
 
 # Ts out
 out/
+out/extension.js
+out/extension.js.map
