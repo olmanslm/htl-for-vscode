@@ -3,9 +3,9 @@
     "displayName": "Language Support for HTL (HTML Template Language) by Adobe Experience Manager (AEM)",
     "description": "Provides HTL support and different code snippets",
     "author": "Olman San Lee Montero",
-    "icon": "icons/hangar_plus_AEM.png",
+    "icon": "assets/logo/AEM_VSCode.png",
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "olmanslm",
     "engines": {
         "vscode": "^1.46.0"
